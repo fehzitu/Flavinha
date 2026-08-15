@@ -336,14 +336,23 @@ section {
     transform: scale(1.1);
 }
 
+/* VIDEOS */
+.vgrid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
 .video {
     position: relative;
-    height: 720px;
+    min-height: 640px;
     overflow: hidden;
     border-radius: 24px;
 }
 
 .video video {
+    height: 100%;
+    width: 100%;
     transition: .5s;
 }
 
@@ -456,11 +465,9 @@ section {
         grid-template-columns: 1fr;
     }
 
-    .cards-grid {
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .pgrid {
+    .cards-grid,
+    .pgrid,
+    .vgrid {
         grid-template-columns: repeat(2,1fr);
     }
 
@@ -479,7 +486,8 @@ section {
     }
 
     .cards-grid,
-    .pgrid {
+    .pgrid,
+    .vgrid {
         grid-template-columns: 1fr;
     }
 
