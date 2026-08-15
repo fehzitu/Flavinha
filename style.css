@@ -421,25 +421,6 @@ section {
     max-width: 650px;
 }
 
-/* Price */
-.kit-bonus {
-    font-weight: 800;
-    color: var(--warn);
-}
-
-.old-price {
-    color: var(--fail);
-}
-
-.new-price {
-    color: var(--success);
-}
-
-.month-price {
-    font-weight: 800;
-    color: var(--warn);
-}
-
 /* Reveal */
 .reveal {
     opacity: 0;
