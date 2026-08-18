@@ -238,6 +238,7 @@ section {
     border-radius: 20px;
 }
 
+.card h1,
 .card h3 {
     margin-bottom: 12px;
 }
