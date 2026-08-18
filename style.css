@@ -239,7 +239,8 @@ section {
 }
 
 .card h1,
-.card h3 {
+.card h3,
+.card p {
     margin-bottom: 12px;
 }
 
