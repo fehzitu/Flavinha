@@ -248,6 +248,10 @@ section {
     opacity: .8;
 }
 
+.card audio {
+    margin: 12px 0;
+}
+
 .card .green {
     color: var(--success);
 }
