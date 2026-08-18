@@ -55,7 +55,7 @@ ul {
     width: 100%;
     z-index: 1000;
     backdrop-filter: blur(10px);
-    background: rgba(255,255,255,.9);
+    background: rgba(255, 255, 255, .9);
     border-bottom: 1px solid var(--border);
 }
 
@@ -165,7 +165,7 @@ ul {
     background: white;
     border-radius: 24px;
     overflow: hidden;
-    box-shadow: 0 15px 40px rgba(0,0,0,.08);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .08);
 }
 
 .browser-top {
@@ -219,7 +219,7 @@ section {
     margin: auto;
 }
 
-/* dark box */
+/* Dark box */
 .darkbox {
     background: var(--primary);
     color: white;
@@ -227,13 +227,13 @@ section {
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 25px;
 }
 
 .card {
-    background: rgba(255,255,255,.05);
-    border: 1px solid rgba(255,255,255,.08);
+    background: rgba(255, 255, 255, .05);
+    border: 1px solid rgba(255, 255, 255, .08);
     padding: 30px;
     border-radius: 20px;
 }
@@ -254,7 +254,7 @@ section {
     color: var(--fail);
 }
 
-/* light box */
+/* Light box */
 .lightbox-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -281,14 +281,14 @@ section {
     background: white;
     padding: 25px;
     border-radius: 18px;
-    box-shadow: 0 5px 20px rgba(0,0,0,.05);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
 }
 
 .blbcard {
     background: white;
     border-radius: 30px;
     padding: 40px;
-    box-shadow: 0 10px 35px rgba(0,0,0,.08);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .08);
 }
 
 .blbcard span {
@@ -305,17 +305,15 @@ section {
     height: 180px;
     margin-top: 30px;
     border-radius: 20px;
-    background: linear-gradient(
-    180deg,
-    rgba(79,70,229,.3),
-    rgba(79,70,229,.05)
-    );
+    background: linear-gradient(180deg,
+            rgba(79, 70, 229, .3),
+            rgba(79, 70, 229, .05));
 }
 
-/* PHOTOS */
+/* Photos */
 .pgrid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
@@ -336,10 +334,10 @@ section {
     transform: scale(1.1);
 }
 
-/* VIDEOS */
+/* Videos */
 .vgrid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
@@ -367,14 +365,12 @@ section {
     justify-content: end;
     flex-direction: column;
     padding: 30px;
-    background: linear-gradient(
-    transparent,
-    rgba(0,0,0,.8)
-    );
+    background: linear-gradient(transparent,
+            rgba(0, 0, 0, .8));
 }
 
 .overlay span {
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
     font-size: .8rem;
 }
 
@@ -390,7 +386,7 @@ section {
 
 .comparison-grid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
@@ -424,7 +420,7 @@ section {
     gap: 10px;
 }
 
-/* CTA */
+/* Cta */
 .cta-box {
     background: var(--secondary);
     color: white;
@@ -459,6 +455,7 @@ section {
 
 /* Responsive */
 @media (max-width: 992px) {
+
     .hero-grid,
     .lightbox-grid,
     .comparison-grid {
@@ -468,7 +465,7 @@ section {
     .cards-grid,
     .pgrid,
     .vgrid {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .hero h1 {
